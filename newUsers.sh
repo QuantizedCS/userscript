@@ -3,7 +3,7 @@
 userName=username
 passWord=password
 realName=realname
-Hint = hint
+Hint=hint
 
 sudo dscl . create /Users/$userName
 sudo dscl . create /Users/$userName RealName "$realName"
