@@ -7,7 +7,7 @@ sudo dscl . create /Users/username password
 sudo dscl . create /Users/username UniqueID 600
 sudo dscl . create /Users/username PrimaryGroupID 80
 sudo dscl . create /Users/username UserShell /bin/bash
-sudo dscl . create /Users/username NFSHomeDirectory /Users/cpsit
+sudo dscl . create /Users/username NFSHomeDirectory /Users/username
 sudo dscl . -append /Groups/admin GroupMembership "username"
 sudo dscl . -append /Groups/_appserveradm GroupMembership "username"
 sudo dscl . -append /Groups/_appserverusr GroupMembership "username"
